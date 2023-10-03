@@ -8,18 +8,18 @@
 <body style="font-family:verdana">
     <h1>Atividade - 01: Introdução do html na prática.</h1>
     <hr/>
-    <h2>Ìndice:</h2>
+    <h2 id="inicio">Ìndice:</h2>
     <ol>
-        <li><a href="#">Estrutura básica do html</a></li>
-        <li><a href="#">Tags</a></li>
-        <li><a href="#">Textos</a></li>
+        <li><a href="#html">Estrutura básica do html</a></li>
+        <li><a href="#Tags">Tags</a></li>
+        <li><a href="#Textos">Textos</a></li>
         <li>
-            <a href="#">Listas<ul><li>ordenada</li><li>não ordenada</li></ul></a>
+            <a href="#Listas">Listas<ul><li>ordenada</li><li>não ordenada</li></ul></a>
         </li>
-        <li><a href="#">Links</a></li>
+        <li><a href="#Links">Links</a></li>
     </ol>
     <hr>
-    <h3>Estrutura básica do html</h3>
+    <h3 id="html">Estrutura básica do html</h3>
     <h4>O que é html?</h4>
     <p>Antes de irmos para a estrutura, precimos conhecer e saber o que html, que se remume a uma linguagem de marcação, html não é linguagem de programação. O nome <abbr title="HyperText Markup Language">HTML</abbr> significa em inglês: HyperText Markup Language. Para gente aqui fica: Linguagem de Marcação de Hipertexto.</p>
     <p>Pronto agora podemos ir para a estrutura do html.</p>
@@ -27,7 +27,7 @@
     <img src="https://i0.wp.com/kenzie.com.br/blog/wp-content/uploads/2021/02/estrutura-html-1.jpg?resize=579%2C254&ssl=1" alt="estrutura html">
     <h6><i>Estrutura básica do html</i></h6>
     
-    <h3>Tags</h3>
+    <h3 id="Tags">Tags</h3>
     <h4>O que são tags?</h4>
     <p>Elas são usadas para estruturar o conteúdo de um documento, para formatar o texto, para adicionar imagens e outros elementos, etc. As tags HTML básicas são <mark>essenciais</mark> para criar qualquer documento HTML.</p>
     <h5>Exemplos de Tags:</h5>
@@ -43,7 +43,8 @@
     </ul>
 
     <h3>Listas: ordenadas e não ordenadas</h3>
-    <p>Permite criarmos tópicos de textos para uma melhor exemplificação de um determinado assunto. Existem dois tipo listas ordenadas, e não ordenadas, que iremos ver logo abaixo</p>
+    <h4>O que são as listas?</h4>
+    <p>Elas nos ermite criarmos tópicos de textos para uma melhor exemplificação de um determinado assunto. Existem dois tipo listas ordenadas, e não ordenadas, que iremos ver logo abaixo</p>
     <p>As listas ordenadas, são as listas que são enumeradas. <sup>Ex:</sup></p>
     <ol>
         <li>Domingo</li>
@@ -56,5 +57,13 @@
         <li>Segunda</li>
         <li>Terça</li>
     </ul>
+
+    <h3 id="Links">Links</h3>
+    <h4>O que são os links?</h4>
+    <p>Os links especifica as relações entre o documento atual e um recurso externo ou até mesmo interno, como fizemos aqui neste site, e isto é chamado de ancoragem. <sup>Ex:</sup></p>
+    <p>Link <sub>externo</sub></p>
+    <a href="https://github.com/cadu06" title="clique aqui para ver meu git" target="_blank">Meu github</a>
+    <p>Link <sub>interno</sub></p>
+    <a href="#inicio">Voltar ao início -></a>
 </body>
 </html>
